@@ -216,7 +216,7 @@
 
   function start(name, room) {
     if (!name || !room) return;
-    if (firebaseConfig.apiKey === 'PASTE_HERE') { $('err').textContent = 'Add your Firebase config in index.html first.'; return; }
+    if (firebaseConfig.apiKey === 'AIzaSyBX6FJbE5IcOXXFOJ9q-8EqTglc0xdLbJQ') { $('err').textContent = 'Add your Firebase config in index.html first.'; return; }
     try { localStorage.setItem('hidear', JSON.stringify({ name, room })); } catch {}
     if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
     db = firebase.database(); base = db.ref('rooms/' + room); me = name;
