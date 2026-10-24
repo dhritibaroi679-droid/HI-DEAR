@@ -158,11 +158,11 @@
 <script>
   // ====== PASTE YOUR FIREBASE CONFIG HERE ======
   const firebaseConfig = {
-    apiKey: "PASTE_HERE",
-    authDomain: "PASTE_HERE",
-    databaseURL: "PASTE_HERE",
-    projectId: "PASTE_HERE",
-    appId: "PASTE_HERE"
+    apiKey: "AIzaSyBX6FJbE5IcOXXFOJ9q-8EqTglc0xdLbJQ",
+    authDomain: "hi-dear-b6dec.firebaseapp.com",
+    databaseURL: "https://hi-dear-b6dec-default-rtdb.firebaseio.com",
+    projectId: "hi-dear-b6dec",
+    appId: "1:136205658805:web:397dd932cbb52cf985acfc"
   };
   // =============================================
 
